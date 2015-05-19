@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(../assets/tipografia/Oswald/Oswald-Regular.ttf);
+}
+
+
+
+.container-fluid{
+	padding: 0;
+}
+
+
+
+/*SECCIÓN NAVEGADOR*/
+
+.navbar-default{
+	background-color: white;
+	border-bottom:2px solid grey;
+	border-radius: 0px;
+	margin:0;
+	position: fixed;
+	width: 100%;
+}
+
+.logo{
+	width: 10%;
+	a{
+		padding:7px  !important;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.text-nav{
+	font-size: 21px;
+  margin-top: 2%;
+  font-family: "Oswald-Regular";
+}
+
+.navbar-right{
+	margin-top: 6.5;
+}
+
+
+/*SECCIÓN NAVEGADOR-VERTICAL*/
+
+
+.navagador-vertical{
+	background-color: aliceblue;
+	margin-top: 5%;
+  position: fixed;
+  width: 7em;
+}
+
+.icon-nav-vertical{
+  padding: 25% 14%;
+  text-align: center;
+  p{
+  	font-family: "Oswald-Regular";
+  	font-size: 12px;
+  	margin-top: 20%;
+  }
+}
+
+.glyphicon{
+	color: grey;
+	font-size: 30px;
+}
+
