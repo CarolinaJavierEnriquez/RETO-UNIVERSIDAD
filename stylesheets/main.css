@@ -5531,20 +5531,33 @@ button.close {
 @font-face {
   font-family: Oswald-Regular;
   src: url(../assets/tipografia/Oswald/Oswald-Regular.ttf); }
+@font-face {
+  font-family: Slabo-Regular;
+  src: url(../assets/tipografia/Slabo-Regular.ttf); }
 .container-fluid {
   padding: 0; }
 
+body {
+  background-image: url(../assets/img/textura.png);
+  color: grey; }
+
 /*SECCI├ôN NAVEGADOR*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 8; }
+
 .navegador .row {
   margin: 0; }
+
+a {
+  color: grey; }
 
 .navbar-default {
   background-color: white;
   border-bottom: 2px solid grey;
   border-radius: 0px;
-  margin: 0;
-  position: fixed;
-  width: 100%; }
+  margin: 0; }
 
 .logo {
   width: 10%; }
@@ -5559,25 +5572,59 @@ button.close {
   font-family: "Oswald-Regular"; }
 
 .navbar-right {
-  margin-top: 6.5; }
+  margin-top: 6.5px; }
+
+.nav-horizontal {
+  padding-left: 8%;
+  position: fixed;
+  width: 100%;
+  text-align: center; }
+  .nav-horizontal .icon-nav-horizontal {
+    padding: 1.9% 2%;
+    float: left; }
+    .nav-horizontal .icon-nav-horizontal a {
+      padding: 0; }
+      .nav-horizontal .icon-nav-horizontal a p {
+        font-family: "Oswald-Regular";
+        font-size: 12px;
+        margin-top: 20%;
+        color: grey; }
+
+.nav-right span {
+  font-size: 30px;
+  font-family: "Slabo-Regular"; }
+.nav-right img {
+  width: 53%;
+  border: 4px solid white;
+  border-radius: 50%; }
+
+.border-icon-nav-horizontal {
+  border-bottom: 1px solid grey; }
+
+.text-sub {
+  margin-top: 10%; }
 
 /*SECCI├ôN NAVEGADOR-VERTICAL*/
 .navagador-vertical {
-  background-color: aliceblue;
+  background-color: white;
   margin-top: 5%;
   position: fixed;
-  width: 7em; }
+  width: 7em;
+  z-index: 9; }
 
 .icon-nav-vertical {
   padding: 25% 14%;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px solid grey; }
   .icon-nav-vertical p {
     font-family: "Oswald-Regular";
     font-size: 12px;
     margin-top: 20%; }
 
+.icon-nav-vertical:hover {
+  color: red !important; }
+
 .glyphicon {
-  color: grey;
   font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */
