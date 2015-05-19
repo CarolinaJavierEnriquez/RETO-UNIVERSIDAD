@@ -12,7 +12,11 @@
 
 
 /*SECCIÓN NAVEGADOR*/
-
+.navegador{
+	.row{
+		margin: 0;
+	}
+}
 .navbar-default{
 	background-color: white;
 	border-bottom:2px solid grey;
