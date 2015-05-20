@@ -9,4 +9,39 @@ $(document).ready(function() {
 		$(".text-icon-misrecursos").toggleClass("hidden");
 		$(".text-miscursos").toggleClass("hidden");
 	});
+	$(".texto-col6-2").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-2").toggleClass("hidden");
+		$(".text-miscursos-2").toggleClass("hidden");
+	});
+	$(".texto-col6-3").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-3").toggleClass("hidden");
+		$(".text-miscursos-3").toggleClass("hidden");
+	});
+	$(".texto-col6-4").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-4").toggleClass("hidden");
+		$(".text-miscursos-4").toggleClass("hidden");
+	});
+	$(".texto-col6-5").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-5").toggleClass("hidden");
+		$(".text-miscursos-5").toggleClass("hidden");
+	});
+	$(".texto-col6-6").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-6").toggleClass("hidden");
+		$(".text-miscursos-6").toggleClass("hidden");
+	});
+	$(".texto-col6-7").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-7").toggleClass("hidden");
+		$(".text-miscursos-7").toggleClass("hidden");
+	});
+	$(".texto-col6-8").click(function(event){
+		event.preventDefault();
+		$(".text-icon-misrecursos-8").toggleClass("hidden");
+		$(".text-miscursos-8").toggleClass("hidden");
+	});
 });
