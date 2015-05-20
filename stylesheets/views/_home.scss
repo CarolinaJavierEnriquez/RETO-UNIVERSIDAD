@@ -8,6 +8,12 @@
     src: url(../assets/tipografia/Slabo-Regular.ttf);
 }
 
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../assets/tipografia/Roboto/Roboto-Light.ttf);
+}
+
+
 
 
 
@@ -67,25 +73,45 @@ a{
 }
 
 
+.segundo-nav-h{
+	background-image:url(../assets/img/textura.png);
+}
+
 .nav-horizontal{
+	background-image:url(../assets/img/textura.png);
 	padding-left: 8%;
 	position: fixed;
   width: 100%;
   text-align: center;
   .icon-nav-horizontal{
-		padding: 1.9% 2%;
+		padding: 2% 3% 1%;
 		float: left;
 		a{
 			padding: 0;
 			p{
 				font-family: "Oswald-Regular";
-			  font-size: 12px;
+			  font-size: 13px;
 			  margin-top: 20%;
 			  color: grey;
 			}
+			span{
+				.n-mensaje{
+						font-family: "Oswald-Regular";
+					  display: inline-block;
+					  padding: 4px 3px;
+					  font-size: 10px;
+					  color: #fff;
+					  text-align: center;
+					  background-color: red;
+					  border-radius: 50%;
+					  min-height: 19px;
+					  margin-left: 44%;
+					  margin-top: -43%;
+					}
+				}
+			}
 		}
 	}
-}
 
 .nav-right{
 	span{
@@ -99,7 +125,10 @@ a{
 	}
 }
 
-
+.dropdown-menu{
+	font-family: "Oswald-Regular";
+	font-size: 15px;
+}
 .border-icon-nav-horizontal{
 	border-bottom: 1px solid grey;
 }
@@ -112,6 +141,7 @@ a{
 
 
 .navagador-vertical{
+	float:left;
 	background-color: white;
 	margin-top: 5%;
   position: fixed;
@@ -136,5 +166,78 @@ a{
 
 .glyphicon{
 	font-size: 30px;
+}
+
+/*SECCIÓN CONTENIDO*/
+
+.contenido{
+  width: 93em;
+  margin-top: 18%;
+  position: absolute;
+  margin-left: 7%;
+  padding-left: 1%;
+	h1{
+		font-size: 25px;
+		font-family:"Slabo-Regular"
+	}
+}
+
+
+.caja1{
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+	.text-subtitulo{
+		background-color: grey;
+		ul{
+			padding: 4% 0;
+			li{
+				float: left;
+			  padding: 0 3.9%;
+			  margin-top: -2%;
+			  font-family: "Oswald-Regular";
+  			font-size: 15px;
+  			color: white;
+			}
+			.padding-extra{
+				padding: 0 20%;
+			}
+			.border{
+				border-left: 1px solid white;
+			}
+		}
+	}
+	.text-contenido{
+		background-color: white;
+		ul{
+			padding: 5% 0 6.5%;
+			border-bottom: 1px solid 	#C0C0C0;
+			li{
+				float: left;
+			  padding: 0 3.5%;
+			  margin-top: -2%;
+			  font-family: "Roboto-Light";
+  			font-size: 17px;
+  			color: grey;
+			}
+			.padding-extra{
+				padding: 0 8%;
+			  font-size: 13px;
+			  line-height: 1.2;
+			}
+			.font-weight{
+				font-weight: 600;
+			}
+			.border-left{
+				border-left: 1px solid grey;
+			}
+			.border-right{
+				border-right: 1px solid grey;
+			  padding-right: 8.2%;
+			}
+		}
+	}
+
 }
 
