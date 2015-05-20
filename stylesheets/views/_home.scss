@@ -223,12 +223,16 @@ a{
 		}
 	}
 
-	.text-contenido{
+	.conten-white{
 		background-color: white;
+	}
+
+	.text-contenido{
 		.border-ul{
 			border-bottom: 1px solid 	#C0C0C0;}
 		.margin-ul{
 			margin-bottom: 2%;
+			background-color:white;
 		}
 		ul{
 			padding: 5% 0 6.5%;
@@ -264,6 +268,9 @@ a{
 			}
 			.padding-MO{
 			 	padding: 0 10%;
+			}
+			.padding-icon{
+				padding: 0 20%;
 			}
 		}
 	}
@@ -322,6 +329,7 @@ a{
 	ul{
 		a{
 		 .icon-col3{
+		 	color: grey;
 			  text-align: center;
 				padding: 10% 0 5%;
 				p{

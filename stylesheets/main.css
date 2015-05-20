@@ -5695,39 +5695,42 @@ a {
       padding: 0 12.2%; }
     .caja1 .text-subtitulo ul .padding-4 {
       padding: 0 8%; }
-.caja1 .text-contenido {
+.caja1 .conten-white {
   background-color: white; }
-  .caja1 .text-contenido .border-ul {
-    border-bottom: 1px solid 	#C0C0C0; }
-  .caja1 .text-contenido .margin-ul {
-    margin-bottom: 2%; }
-  .caja1 .text-contenido ul {
-    padding: 5% 0 6.5%; }
-    .caja1 .text-contenido ul li {
-      float: left;
-      padding: 0 3.5%;
-      margin-top: -2%;
-      font-family: "Roboto-Light";
-      font-size: 17px;
-      color: grey; }
-    .caja1 .text-contenido ul .padding-extra {
-      padding: 0 8%;
-      font-size: 13px;
-      line-height: 1.1; }
-    .caja1 .text-contenido ul .font-weight {
-      font-weight: 600; }
-    .caja1 .text-contenido ul .border-left {
-      border-left: 1px solid grey; }
-    .caja1 .text-contenido ul .border-right {
-      border-right: 1px solid grey;
-      padding: 0 5.6%; }
-    .caja1 .text-contenido ul .padding-left {
-      padding: 0 8.9%; }
-    .caja1 .text-contenido ul .text-reservas {
-      font-size: 17px;
-      padding: 0 4.5%; }
-    .caja1 .text-contenido ul .padding-MO {
-      padding: 0 10%; }
+.caja1 .text-contenido .border-ul {
+  border-bottom: 1px solid 	#C0C0C0; }
+.caja1 .text-contenido .margin-ul {
+  margin-bottom: 2%;
+  background-color: white; }
+.caja1 .text-contenido ul {
+  padding: 5% 0 6.5%; }
+  .caja1 .text-contenido ul li {
+    float: left;
+    padding: 0 3.5%;
+    margin-top: -2%;
+    font-family: "Roboto-Light";
+    font-size: 17px;
+    color: grey; }
+  .caja1 .text-contenido ul .padding-extra {
+    padding: 0 8%;
+    font-size: 13px;
+    line-height: 1.1; }
+  .caja1 .text-contenido ul .font-weight {
+    font-weight: 600; }
+  .caja1 .text-contenido ul .border-left {
+    border-left: 1px solid grey; }
+  .caja1 .text-contenido ul .border-right {
+    border-right: 1px solid grey;
+    padding: 0 5.6%; }
+  .caja1 .text-contenido ul .padding-left {
+    padding: 0 8.9%; }
+  .caja1 .text-contenido ul .text-reservas {
+    font-size: 17px;
+    padding: 0 4.5%; }
+  .caja1 .text-contenido ul .padding-MO {
+    padding: 0 10%; }
+  .caja1 .text-contenido ul .padding-icon {
+    padding: 0 20%; }
 
 .margin-row {
   margin-top: 3%; }
@@ -5765,6 +5768,7 @@ a {
   padding-top: 4%;
   background-color: white; }
   .text-contenido-caja3 ul a .icon-col3 {
+    color: grey;
     text-align: center;
     padding: 10% 0 5%; }
     .text-contenido-caja3 ul a .icon-col3 p {
