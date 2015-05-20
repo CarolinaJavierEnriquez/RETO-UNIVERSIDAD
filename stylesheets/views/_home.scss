@@ -206,13 +206,26 @@ a{
 			.border{
 				border-left: 1px solid white;
 			}
+			.padding-1{
+				padding: 0 6.9%;
+			}/*padding de cursos de mis cursos*/
+			.padding-2{
+				padding: 0 5.9%;
+			}/*padding de hora y campus de mis rservas*/
+			.padding-3{
+				padding: 0 12.2%;
+			}/*padding de recursos de mis reservas*/
 		}
 	}
 	.text-contenido{
 		background-color: white;
+		.border-ul{
+			border-bottom: 1px solid 	#C0C0C0;}
+		.margin-ul{
+			margin-bottom: 2%;
+		}
 		ul{
 			padding: 5% 0 6.5%;
-			border-bottom: 1px solid 	#C0C0C0;
 			li{
 				float: left;
 			  padding: 0 3.5%;
@@ -224,7 +237,7 @@ a{
 			.padding-extra{
 				padding: 0 8%;
 			  font-size: 13px;
-			  line-height: 1.2;
+			  line-height: 1.1;
 			}
 			.font-weight{
 				font-weight: 600;
@@ -234,10 +247,22 @@ a{
 			}
 			.border-right{
 				border-right: 1px solid grey;
-			  padding-right: 8.2%;
+			  padding: 0 5.6%;
+			}
+			.padding-left{
+				 padding: 0 8.9%;
+			}
+			.text-reservas{
+				font-size: 17px;
+			  padding: 0 4.5%;
+			}
+			.padding-MO{
+			 	padding: 0 10%;
 			}
 		}
 	}
-
 }
 
+.margin-row{
+	margin-top:3%;
+}
