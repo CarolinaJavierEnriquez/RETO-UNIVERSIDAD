@@ -5537,6 +5537,10 @@ button.close {
 @font-face {
   font-family: Roboto-Light;
   src: url(../assets/tipografia/Roboto/Roboto-Light.ttf); }
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent; }
+
 .container-fluid {
   padding: 0; }
 
@@ -5689,6 +5693,8 @@ a {
       padding: 0 5.9%; }
     .caja1 .text-subtitulo ul .padding-3 {
       padding: 0 12.2%; }
+    .caja1 .text-subtitulo ul .padding-4 {
+      padding: 0 8%; }
 .caja1 .text-contenido {
   background-color: white; }
   .caja1 .text-contenido .border-ul {
@@ -5724,6 +5730,103 @@ a {
       padding: 0 10%; }
 
 .margin-row {
-  margin-top: 3%; }
+  margin-top: 5%; }
+
+.margin-row2 {
+  margin-top: 3.7%; }
+
+/*COL_3*/
+.caja3 ul {
+  list-style: none;
+  padding: 0; }
+.caja3 .text-subtitulo-col3 {
+  background-color: grey; }
+  .caja3 .text-subtitulo-col3 ul {
+    padding: 6% 0; }
+    .caja3 .text-subtitulo-col3 ul li {
+      margin-top: -3% !important;
+      float: left;
+      padding: 0 3.9%;
+      margin-top: -2%;
+      font-family: "Oswald-Regular";
+      font-size: 15px;
+      color: white; }
+    .caja3 .text-subtitulo-col3 ul .border {
+      border-left: 1px solid white; }
+    .caja3 .text-subtitulo-col3 ul .padding-4 {
+      padding: 0 10%; }
+    .caja3 .text-subtitulo-col3 ul .padding-5 {
+      padding: 0 3%; }
+
+.text-contenido-caja3 {
+  padding-top: 4%;
+  background-color: white; }
+  .text-contenido-caja3 ul a .icon-col3 {
+    text-align: center;
+    padding: 10% 0 5%; }
+    .text-contenido-caja3 ul a .icon-col3 p {
+      padding-top: 4%;
+      font-size: 18px;
+      font-family: "Slabo-Regular";
+      color: red; }
+  .text-contenido-caja3 ul a .caja-icon3 {
+    background-color: white; }
+    .text-contenido-caja3 ul a .caja-icon3 .icon-1 {
+      color: grey;
+      padding: 5% 7%; }
+    .text-contenido-caja3 ul a .caja-icon3 .icon-2 {
+      color: red;
+      padding: 5% 3%; }
+    .text-contenido-caja3 ul a .caja-icon3 .border-right {
+      border-right: 1px solid grey; }
+    .text-contenido-caja3 ul a .caja-icon3 .icon-hidden {
+      font-family: "Roboto-Light";
+      float: left;
+      background-color: white;
+      text-align: center; }
+      .text-contenido-caja3 ul a .caja-icon3 .icon-hidden .glyphicon {
+        font-size: 23px; }
+      .text-contenido-caja3 ul a .caja-icon3 .icon-hidden h4 {
+        margin: 12% 0 0;
+        font-weight: 600; }
+      .text-contenido-caja3 ul a .caja-icon3 .icon-hidden h5 {
+        margin: 12% 0 0;
+        font-weight: 600; }
+      .text-contenido-caja3 ul a .caja-icon3 .icon-hidden p {
+        font-size: 13px; }
+      .text-contenido-caja3 ul a .caja-icon3 .icon-hidden .margin-p {
+        margin-bottom: 11.5%; }
+  .text-contenido-caja3 ul a:hover {
+    text-decoration: none; }
+
+/*SEGUNDA CAJA DEL COL-3*/
+.text-center {
+  text-align: center;
+  padding: 0 17% !important; }
+
+.text-noticias {
+  background-color: white; }
+  .text-noticias h4 {
+    margin: 0;
+    padding: 5%;
+    font-size: 18px;
+    font-family: "Slabo-Regular"; }
+  .text-noticias p {
+    padding: 0 5%;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Roboto-Light"; }
+  .text-noticias .leer-mas {
+    margin-top: 10%;
+    padding: 0 5% 6%;
+    color: dodgerblue; }
+    .text-noticias .leer-mas .glyphicon {
+      font-size: 25px;
+      float: left; }
+    .text-noticias .leer-mas a {
+      font-family: "Slabo-Regular";
+      font-size: 15px;
+      padding-left: 5%;
+      color: dodgerblue; }
 
 /*# sourceMappingURL=main.css.map */
