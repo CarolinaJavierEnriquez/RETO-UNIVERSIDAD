@@ -1,0 +1,23 @@
+.menu-item {
+	position: relative !important;
+	.sub-menu {
+		width: 0;
+		padding: 0;
+		list-style: none;
+		background-color: white;
+		position: absolute !important;
+  	top: 1px;
+  	left: 83px;
+		transition: all 0.2s ease-in-out;
+		overflow: hidden;
+		li {
+			width: 200px;
+		}
+	}
+	&.open {
+		.sub-menu {
+			width: 200px;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+}

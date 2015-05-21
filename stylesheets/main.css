@@ -5548,7 +5548,7 @@ body {
   background-image: url(../assets/img/textura.png);
   color: grey; }
 
-/*SECCI├ôN NAVEGADOR*/
+/*SECCIÓN NAVEGADOR*/
 header {
   position: fixed;
   width: 100%;
@@ -5631,7 +5631,7 @@ a {
 .text-sub {
   margin-top: 10%; }
 
-/*SECCI├ôN NAVEGADOR-VERTICAL*/
+/*SECCIÓN NAVEGADOR-VERTICAL*/
 .navagador-vertical {
   float: left;
   background-color: white;
@@ -5649,13 +5649,10 @@ a {
     font-size: 12px;
     margin-top: 20%; }
 
-.icon-nav-vertical:hover {
-  color: red !important; }
-
 .glyphicon {
   font-size: 30px; }
 
-/*SECCI├ôN CONTENIDO*/
+/*SECCIÓN CONTENIDO*/
 .contenido {
   width: 93em;
   margin-top: 18%;
@@ -5840,5 +5837,23 @@ a {
 .footer {
   margin: 9% 31% 1%;
   font-family: "Slabo-Regular"; }
+
+.menu-item {
+  position: relative !important; }
+  .menu-item .sub-menu {
+    width: 0;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+    position: absolute !important;
+    top: 1px;
+    left: 83px;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden; }
+    .menu-item .sub-menu li {
+      width: 200px; }
+  .menu-item.open .sub-menu {
+    width: 200px;
+    transition: all 0.2s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */
