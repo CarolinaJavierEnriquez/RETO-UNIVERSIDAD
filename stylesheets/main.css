@@ -5541,6 +5541,9 @@ button.close {
   text-decoration: none;
   background-color: transparent; }
 
+.nav .open > a, .nav .open > a:hover {
+  background: none !important; }
+
 .container-fluid {
   padding: 0; }
 
