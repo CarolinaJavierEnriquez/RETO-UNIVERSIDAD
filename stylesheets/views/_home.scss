@@ -135,9 +135,7 @@ a{
 	border-bottom: 1px solid grey;
 }
 
-.text-sub{
-	margin-top:10%
-}
+
 
 /*SECCIÓN NAVEGADOR-VERTICAL*/
 
@@ -162,12 +160,9 @@ a{
   }
 }
 
-// .icon-nav-vertical:hover{
-// 	color: red !important;
-// }
-
 .glyphicon{
 	font-size: 30px;
+	cursor: point;
 }
 
 /*SECCIÓN CONTENIDO*/
@@ -185,203 +180,109 @@ a{
 }
 
 
-.caja1{
-	ul{
-		list-style: none;
-		padding: 0;
-	}
-	.text-subtitulo{
-		background-color: grey;
-		ul{
-			padding: 4% 0;
-			li{
-				float: left;
-			  padding: 0 3.9%;
-			  margin-top: -2%;
-			  font-family: "Oswald-Regular";
-  			font-size: 15px;
-  			color: white;
-			}
-			.padding-extra{
-				padding: 0 20%;
-			}
-			.border{
-				border-left: 1px solid white;
-			}
-			.padding-1{
-				padding: 0 6.9%;
-			}/*padding de cursos de mis cursos*/
-			.padding-2{
-				padding: 0 5.9%;
-			}/*padding de hora y campus de mis rservas*/
-			.padding-3{
-				padding: 0 12.2%;
-			}/*padding de recursos de mis reservas*/
-			.padding-4{
-				padding: 0 8%;
-			}
-		}
-	}
-
-	.conten-white{
-		background-color: white;
-	}
-
-	.text-contenido{
-		.border-ul{
-			border-bottom: 1px solid 	#C0C0C0;}
-		.margin-ul{
-			margin-bottom: 2%;
-			background-color:white;
-		}
-		ul{
-			padding: 5% 0 6.5%;
-			li{
-				float: left;
-			  padding: 0 3.5%;
-			  margin-top: -2%;
-			  font-family: "Roboto-Light";
-  			font-size: 17px;
-  			color: grey;
-			}
-			.padding-extra{
-				padding: 0 8%;
-			  font-size: 13px;
-			  line-height: 1.1;
-			}
-			.font-weight{
-				font-weight: 600;
-			}
-			.border-left{
-				border-left: 1px solid grey;
-			}
-			.border-right{
-				border-right: 1px solid grey;
-			  padding: 0 5.6%;
-			}
-			.padding-left{
-				 padding: 0 8.9%;
-			}
-			.text-reservas{
-				font-size: 17px;
-			  padding: 0 4.5%;
-			}
-			.padding-MO{
-			 	padding: 0 10%;
-			}
-			.padding-icon{
-				padding: 0 20%;
-			}
-		}
-	}
-}
-
 .margin-row{
-	margin-top:3%;
+	  margin-top: 16.4%;
 }
 
 .margin-row2{
-	margin-top:4.6%;
+	margin-top: 31.7%;
 }
 
 .margin-row3{
-	margin-top: 2.5%;
+	margin-top: 62%;
 }
 
-
-/*COL_3*/
-
-.caja3{
-	ul{
-		list-style: none;
-		padding: 0;
+.fondo-white{
+		background-color:white;
 	}
-	.text-subtitulo-col3{
+
+.caja1{	
+	.padding-col3{
+		padding: 3% 0 9.5% !important;
+	}
+	.text-subtitulo{
+		padding: 2% 0 6%;
+		margin: 0;
 		background-color: grey;
-		ul{
-			padding: 6% 0;
-			li{
-  			margin-top: -3% !important;
-				float: left;
-			  padding: 0 3.9%;
-			  margin-top: -2%;
-			  font-family: "Oswald-Regular";
-  			font-size: 15px;
-  			color: white;
+		.text-sub{
+			text-align:center;
+		  font-family: "Oswald-Regular";
+			font-size: 15px;
+			color: white;
+		}
+		.border{
+			border-left:1px solid white;
+		}
+	}
+	.text-contenido{
+		padding: 2% 0 10.5%;
+		margin: 0;
+		li{
+			text-align: center;
+			font-family: "Roboto-Light";
+			font-size: 15px;
+			color: grey;
+			line-height: 1.2;
+			list-style: none;
+		}
+		.padding-extra{
+			padding: 2% 2% 2.5%;
+		}
+		.padding-extra1{
+			padding:1% 0 1%;
+		}
+		.border{
+			border-left:1px solid #C0C0C0;
+		}
+		.curso-falta{
+			display: none;
+		}
+		.curso-promedio{
+			display: none;
+		}
+		.icon-col3{
+			margin-top: 7%;
+			p{
+				padding-top: 15%;
+			  font-size: 20px;
+			  font-family: "Slabo-Regular";
+			  color: red;
 			}
-			.border{
-				border-left: 1px solid white;
+		}
+		.boleta-1{
+			h4{
+				margin: 12% 0 0;
+  			font-weight: 600;
 			}
-			.padding-4{
-				padding: 0 10%;
+			p{
+				margin-top: 5%;
+				font-size: 13px;
 			}
-			.padding-5{
-				padding:0 3%;
+		}
+		.boleta-2{
+			color: red;
+			h5{
+				margin: 12% 0 0;
+  			font-weight: 600;
+			}
+			p{
+				margin-top: 5%;
+				font-size: 13px;
 			}
 		}
 	}
-}
-
-
-.text-contenido-caja3{
-	  padding-top: 4%;
-		background-color: white;
-	ul{
-		a{
-		 .icon-col3{
-		 	color: grey;
-			  text-align: center;
-				padding: 10% 0 5%;
-				p{
-					padding-top:4%;
-					font-size: 18px;
-					font-family: "Slabo-Regular";
-					color: red;
-				}
-			}
-			.caja-icon3{		
-				padding-bottom: 40.6%;
-				background-color:white;
-				.icon-1{
-					color: grey;
-					padding: 5% 7%;
-				}
-				.icon-2{
-					color: red;
-					padding: 5% 3%;
-				}
-				.border-right{
-					border-right: 1px solid grey;
-			   }
-				.icon-hidden{
-					font-family: "Roboto-Light";
-					float: left;
-					background-color:white;
-	  			text-align: center;
-	  			.glyphicon{
-	  				font-size: 23px;
-	  			}
-	  			h4{
-	  				margin:12% 0 0; 
-	  				font-weight:600; 
-	  			}
-	  			h5{
-	  				margin:12% 0 0; 
-	  				font-weight:600; 
-	  			}
-	  			p{
-	  				font-size:13px; 
-	  			}
-	  			.margin-p{
-	  				margin-bottom: 11.5%;
-	  			}
-				}
-			}
-		}
-		a:hover{
-			text-decoration: none;
-		}
-	}	
+	.text-noticia{
+		padding: 2% 0 2.5%;
+	}
+	.alto-pagos{
+		min-height:120px;
+	}
+	.border-bottom{
+		border-bottom: 1px solid 	#C0C0C0;
+	}
+	.margin-ul{
+		margin-bottom: 1%;
+	}
 }
 
 
@@ -393,7 +294,6 @@ a{
 }
 
 .text-noticias{
-	background-color:white;
 	h4{
 		margin: 0;
 		padding: 5%;
@@ -424,6 +324,7 @@ a{
 }
 
 .footer{
-	  margin: 9% 31% 1%;
-	  font-family: "Slabo-Regular";
+	margin: 6% 0 1%;
+  font-family: "Slabo-Regular";
+  text-align: center;
 }
