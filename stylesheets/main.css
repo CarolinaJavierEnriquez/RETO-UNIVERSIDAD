@@ -5654,24 +5654,36 @@ a {
   cursor: point; }
 
 /*SECCI├ôN CONTENIDO*/
+.padding-0 {
+  padding: 0 !important; }
+
+.col-2-padding {
+  padding: 2% 0 7% !important; }
+
 .contenido {
-  width: 93em;
+  width: 100%;
   margin-top: 18%;
-  position: absolute;
-  margin-left: 7%;
-  padding-left: 1%; }
+  position: absolute; }
   .contenido h1 {
     font-size: 25px;
     font-family: "Slabo-Regular"; }
+  .contenido .row {
+    margin: 0; }
+
+.margin-nombre {
+  margin-top: 10%; }
+
+.padding-left {
+  padding-left: 0 !important; }
 
 .margin-row {
-  margin-top: 16.4%; }
+  margin-top: 39.4%; }
 
 .margin-row2 {
-  margin-top: 31.7%; }
+  margin-top: 18.7%; }
 
 .margin-row3 {
-  margin-top: 62%; }
+  margin-top: 61.5%; }
 
 .fondo-white {
   background-color: white; }
